@@ -1,0 +1,54 @@
+
+.container{
+    height: 600px;
+    width:1000px;
+    border: 2px solid aquamarine;
+    margin-left: 10%;
+    background-color: beige;
+}
+
+.header{
+   display: flex;
+   justify-content:space-between;
+   position: relative;
+}
+.header__label{
+   margin:2%;
+   width:100px;
+   height: 30px;
+   border: 2px black solid;
+   background-color: black;
+   color: white; 
+   text-align: center;
+  padding-top: 3px;
+  margin-left: 0.5%;
+  margin-top:5px;
+  border-radius:4px;
+  font-size:x-large;
+}
+
+.header__title{
+ position: absolute;
+ left: 45%;
+
+
+}
+.border{
+   width: 400px;
+   height: 2px; 
+   background-color:plum;
+   margin-top:-10px;
+   
+   
+}
+img{
+   width:150px;
+   height: 200px;
+   border:2px solid black;
+   
+}
+.pictures__first,.pictures__second{
+   display: flex;
+   justify-content: space-around;
+   padding: 10px;
+}
