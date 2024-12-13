@@ -11,16 +11,17 @@ import Rose from './roses.jpg'
 import Tulip from './Tulips.jpg'
 import Sunflower from './sunflowers.jpg'
 import Passionflower from './Passion-Flower.jpg'
+import Title from './Title';
 
-let firstSet = [Daisy, Hibiscus, Lily, Lotus];
-let secSect = [Rose, Tulip, Sunflower, Passionflower]
+let firstSet = [Daisy, Hibiscus, Lily, Lotus,Rose, Tulip, Sunflower, Passionflower];
+
 
 function Photo() {
     return (<div className="container">
         <Header></Header>
+        <Title></Title>
         <Border></Border>
         <Frames pics={firstSet}></Frames>
-        <Frames pics={secSect}></Frames>
     </div>)
 }
 
